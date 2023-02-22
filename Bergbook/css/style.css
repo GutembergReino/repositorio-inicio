@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: #f0f2f5;
+    color: black;
+}
+.general {
+    background: linear-gradient(90deg, rgba(10, 48, 105, 0.2) 0%, rgba(10, 48, 105, 0.6) 50%, rgba(10, 48, 105, 1) 100%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 0px;
+    padding-bottom: 110px;
+}
+.general-text {
+    margin-left: 300px;
+}
+.general-text-titulo{
+    font-family: monospace;
+    border-right: 1px solid;
+    width: 10ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(10),
+    blinking 0.5s infinite;
+}
+@keyframes typing {
+    from{
+        width: 2px;
+    }
+}
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
+}
+.general-box {
+    margin-top: 40px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    height: 350px;
+    width: 400px;
+    border-radius: 15px;
+    padding: 5px;
+    align-items: center;
+    text-decoration: none;
+}
+.general-box-input {
+    height: 48px;
+    width: 364px;
+    padding: 14px 16px;
+    margin: 15px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 0.4px solid #0a3069;
+}
+
+.general-box-button {
+    height: 48px;
+    width: 364px;
+    background: #1876f2e6;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.general-box-button:hover {
+    cursor: pointer;
+    background: #1876f2
+}
+.general-box-secundaryButton {
+    height: 48px;
+    width: 166px;
+    margin-top: 40px;
+    background: #42b72a;
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.general-box-secundaryButton:hover {
+    background: #42d026;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
